@@ -36,21 +36,27 @@ namespace AlgorithmImplementation
         static void timer_Elapsed(object sender, ElapsedEventArgs e)
         {
             counter++;
-            if (counter % prime1 == 0 || counter % prime2 == 0)
-            {
-                if (radioOn == false)
-                {
-                    radioOn = true;
-                    radioOns++;
-                    //Console.WriteLine("Radio on");
-                }
-            }
+
             if (radioOn)
             {
+                //Broadcast()
                 radioOn = false;
                 //Console.WriteLine("Radio off");
             }
-
+            else
+            {
+                if (counter % prime1 == 0 || counter % prime2 == 0)
+                {
+                    radioOn = true;
+                    //Broadcast() OR Receive() OR BroadcastAndReceive()
+                    radioOns++;
+                    //Console.WriteLine("Radio on");
+                }
+            
+                
+            }
+            
+            
         }
     }
 
