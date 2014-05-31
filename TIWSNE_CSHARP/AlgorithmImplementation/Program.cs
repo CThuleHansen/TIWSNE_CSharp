@@ -13,8 +13,8 @@ namespace AlgorithmImplementation
     {
         private static bool radioOn = false;
         private static int counter;
-        private static int prime1 = 5;
-        private static int prime2 = 19;
+        private static int prime1 = 7;
+        private static int prime2 = 17;
         private static int radioOns = 0;
         static void Main(string[] args)
         {

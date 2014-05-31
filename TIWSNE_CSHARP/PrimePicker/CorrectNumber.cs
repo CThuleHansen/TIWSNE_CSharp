@@ -10,8 +10,8 @@ namespace PrimePicker
     {
         public double DutyCycleDiffAbs;
         public double DutyCycle;
-        public double Num1;
-        public double Num2;
+        public int Prime1;
+        public int Prime2;
 
         public CorrectNumber()
         {
@@ -20,10 +20,10 @@ namespace PrimePicker
 
         public void Print()
         {
-            Console.WriteLine("Num1: " + Num1);
-            Console.WriteLine("Num2: " + Num2);
-            Console.WriteLine("DutyCycle: " + DutyCycle);
-            Console.WriteLine("DutyCycleDiffAbs: " + DutyCycleDiffAbs);
+            Console.WriteLine("Prime 1: " + Prime1);
+            Console.WriteLine("Prime 2: " + Prime2);
+            Console.WriteLine("Duty cycle: " + DutyCycle);
+            Console.WriteLine("Duty cycle difference: " + DutyCycleDiffAbs);
         }
     }
 }
