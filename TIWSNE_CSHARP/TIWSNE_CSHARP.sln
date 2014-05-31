@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimePicker", "PrimePicker\PrimePicker.csproj", "{DAFF7B1C-C4B1-4B2E-AA4F-2C0F3A0A5478}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmImplementation", "AlgorithmImplementation\AlgorithmImplementation.csproj", "{5D0783A0-10F8-416A-88BF-6D33E25ED21A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{DAFF7B1C-C4B1-4B2E-AA4F-2C0F3A0A5478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAFF7B1C-C4B1-4B2E-AA4F-2C0F3A0A5478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAFF7B1C-C4B1-4B2E-AA4F-2C0F3A0A5478}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D0783A0-10F8-416A-88BF-6D33E25ED21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D0783A0-10F8-416A-88BF-6D33E25ED21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D0783A0-10F8-416A-88BF-6D33E25ED21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D0783A0-10F8-416A-88BF-6D33E25ED21A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
